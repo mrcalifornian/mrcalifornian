@@ -89,21 +89,16 @@ header {
 
 
 #hero-content {
-    /* float: right; */
-    max-width: 40%;
+    max-width: 50%;
 }
 
 #hero-content img {
-    float: right;
-    width: 100%;
+    width: 80%;
     padding: auto;
 }
 
 footer {
-    width: 100%;
-    padding-bottom: 1%;
-    position: absolute;
-    bottom: 0;
+    padding: 2%;
     text-align: center;
 }
 
@@ -128,10 +123,6 @@ footer {
     .home_main {
         margin: 9% 10%;
     }
-
-    #hero-text .head-text {
-        font-size: 200%;
-    }
 }
 
 @media screen and (max-width: 880px) {
@@ -141,7 +132,7 @@ footer {
     }
 
     .home_main {
-        margin: 9% 10%;
+        margin: 8% 10% 4%;
         text-align: center;
         display: inherit;
     }
@@ -150,31 +141,29 @@ footer {
         text-align: center;
         float: none;
         padding-bottom: 10%;
-        max-width: 70%;
+        max-width: 110%;
         margin-left: auto;
         margin-right: auto;
     }
 
     #hero-text .head-text {
         text-align: center;
-        font-size: 180%;
     }
 
     #hero-text .welcome-text {
         text-align: center;
-        font-size: 80%;
     }
 
     #hero-content {
         float: none;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        max-width: 100%;
     }
 
 
     #hero-content img {
-        width: 100%;
+        max-width: 80%;
     }
 
     .main-btn {
