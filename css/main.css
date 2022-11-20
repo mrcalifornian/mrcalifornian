@@ -2,7 +2,7 @@
     font-family: OpenSans;
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 }
- 
+
 
 * {
     padding: 0;
@@ -14,6 +14,12 @@
     align-content: center;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -42,8 +48,11 @@ header {
 }
 
 /* Hero Section */
-.home_main {
+article {
     margin: 5% 20%;
+}
+
+.home_main {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,6 +82,8 @@ header {
     padding-bottom: 10%;
 }
 
+/* Button */
+
 .main-btn {
     text-decoration: none;
     padding: 3% 5%;
@@ -87,6 +98,7 @@ header {
     background-color: wheat;
 }
 
+/* Image or Gif */
 
 #hero-content {
     max-width: 50%;
@@ -97,6 +109,8 @@ header {
     padding: auto;
 }
 
+/* Footer */
+
 footer {
     padding: 2%;
     text-align: center;
@@ -104,15 +118,20 @@ footer {
 
 .social i {
     font-size: 150%;
+    padding: 1% 1%;
 }
 
 .social i:hover {
     cursor: pointer;
 }
 
-.fa-brands {
-    padding: 1% 1%;
-}
+
+/* About */
+
+
+/* Projects */
+
+
 
 .clear {
     clear: both;
@@ -120,7 +139,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    .home_main {
+    article {
         margin: 9% 10%;
     }
 }
@@ -131,8 +150,11 @@ footer {
         font-size: small;
     }
 
-    .home_main {
+    article {
         margin: 8% 10% 4%;
+    }
+
+    .home_main {
         text-align: center;
         display: inherit;
     }
