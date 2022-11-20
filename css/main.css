@@ -116,12 +116,12 @@ footer {
     text-align: center;
 }
 
-.social i {
+footer .social i {
     font-size: 150%;
     padding: 1% 1%;
 }
 
-.social i:hover {
+footer .social i:hover {
     cursor: pointer;
 }
 
